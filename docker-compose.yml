@@ -1,0 +1,7 @@
+mongodb:
+  image: tutum/mongodb
+  log_driver: "syslog"
+  log_opt:
+    syslog-tag: "mongost"
+  ports:
+    - "27017:27017"
